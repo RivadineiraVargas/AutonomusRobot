@@ -1,0 +1,9 @@
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/uninstall.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/mi_mundo_uninstall.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/test.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/edit_cache.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/rebuild_cache.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/list_install_components.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/install.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/install/local.dir
+/home/javier/slam_obstacle_ws/build/mi_mundo/CMakeFiles/install/strip.dir

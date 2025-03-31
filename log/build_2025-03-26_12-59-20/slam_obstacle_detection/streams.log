@@ -1,0 +1,26 @@
+[1.970s] Invoking command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data
+[2.192s] running egg_info
+[2.193s] writing ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/PKG-INFO
+[2.205s] writing dependency_links to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/dependency_links.txt
+[2.205s] writing entry points to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/entry_points.txt
+[2.205s] writing requirements to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/requires.txt
+[2.205s] writing top-level names to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/top_level.txt
+[2.230s] reading manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'
+[2.244s] writing manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'
+[2.244s] running build
+[2.244s] running build_py
+[2.246s] copying slam_obstacle_detection/vision_node.py -> /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection
+[2.246s] running install
+[2.246s] running install_lib
+[2.247s] copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/vision_node.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection
+[2.248s] byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/vision_node.py to vision_node.cpython-310.pyc
+[2.249s] running install_data
+[2.250s] running install_egg_info
+[2.252s] removing '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[2.252s] Copying ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection-0.0.0-py3.10.egg-info
+[2.265s] running install_scripts
+[2.280s] Installing move_robot script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[2.281s] Installing vision_node script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[2.281s] Installing wall_detector script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[2.281s] writing list of installed files to '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log'
+[2.298s] Invoked command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection' returned '0': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data

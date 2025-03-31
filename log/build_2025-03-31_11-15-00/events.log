@@ -1,0 +1,652 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (mi_mundo) JobQueued: {'identifier': 'mi_mundo', 'dependencies': OrderedDict()}
+[0.000466] (slam_obstacle_detection) JobQueued: {'identifier': 'slam_obstacle_detection', 'dependencies': OrderedDict()}
+[0.000812] (mi_mundo) JobStarted: {'identifier': 'mi_mundo'}
+[0.055656] (slam_obstacle_detection) JobStarted: {'identifier': 'slam_obstacle_detection'}
+[0.082275] (mi_mundo) JobProgress: {'identifier': 'mi_mundo', 'progress': 'cmake'}
+[0.100071] (-) TimerEvent: {}
+[0.120429] (mi_mundo) Command: {'cmd': ['/usr/bin/cmake', '/home/javier/slam_obstacle_ws/src/mi_mundo', '-DCMAKE_INSTALL_PREFIX=/home/javier/slam_obstacle_ws/install/mi_mundo'], 'cwd': '/home/javier/slam_obstacle_ws/build/mi_mundo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/javier'), ('OLDPWD', '/home/javier'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2122'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/javier/turtlebot3_ws/install:/home/javier/slam_obstacle_ws/install:/home/javier/t2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'javier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/javier/.gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models::/usr/share/gazebo-11/models:/home/javier/.gazebo/models:/home/javier/slam_obstacle_ws/src/mi_mundo/models:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/javier-LAI:@/tmp/.ICE-unix/1930,unix/javier-LAI:/tmp/.ICE-unix/1930'), ('FASTRTPS_DEFAULT_PROFILES_FILE', ''), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5377df5_70c1_4ba2_89d2_fe49c3bac727'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P92232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier/slam_obstacle_ws/build/mi_mundo'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/javier/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/obstacle_detector/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/javier/slam_obstacle_ws/build/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/t2_ws/install/t2_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble')]), 'shell': False}
+[0.201694] (-) TimerEvent: {}
+[0.302215] (-) TimerEvent: {}
+[0.402444] (-) TimerEvent: {}
+[0.502740] (-) TimerEvent: {}
+[0.603266] (-) TimerEvent: {}
+[0.703512] (-) TimerEvent: {}
+[0.803700] (-) TimerEvent: {}
+[0.903993] (-) TimerEvent: {}
+[1.004647] (-) TimerEvent: {}
+[1.105201] (-) TimerEvent: {}
+[1.155264] (mi_mundo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205360] (-) TimerEvent: {}
+[1.305975] (-) TimerEvent: {}
+[1.406217] (-) TimerEvent: {}
+[1.506574] (-) TimerEvent: {}
+[1.606834] (-) TimerEvent: {}
+[1.707136] (-) TimerEvent: {}
+[1.807436] (-) TimerEvent: {}
+[1.908021] (-) TimerEvent: {}
+[2.008808] (-) TimerEvent: {}
+[2.109103] (-) TimerEvent: {}
+[2.209401] (-) TimerEvent: {}
+[2.309775] (-) TimerEvent: {}
+[2.410412] (-) TimerEvent: {}
+[2.511035] (-) TimerEvent: {}
+[2.611679] (-) TimerEvent: {}
+[2.712256] (-) TimerEvent: {}
+[2.812687] (-) TimerEvent: {}
+[2.834120] (mi_mundo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.912906] (-) TimerEvent: {}
+[3.013698] (-) TimerEvent: {}
+[3.114316] (-) TimerEvent: {}
+[3.214959] (-) TimerEvent: {}
+[3.315689] (-) TimerEvent: {}
+[3.416193] (-) TimerEvent: {}
+[3.516448] (-) TimerEvent: {}
+[3.616717] (-) TimerEvent: {}
+[3.717060] (-) TimerEvent: {}
+[3.817663] (-) TimerEvent: {}
+[3.918258] (-) TimerEvent: {}
+[4.018894] (-) TimerEvent: {}
+[4.119470] (-) TimerEvent: {}
+[4.219836] (-) TimerEvent: {}
+[4.320448] (-) TimerEvent: {}
+[4.421028] (-) TimerEvent: {}
+[4.521637] (-) TimerEvent: {}
+[4.622273] (-) TimerEvent: {}
+[4.722859] (-) TimerEvent: {}
+[4.823556] (-) TimerEvent: {}
+[4.924153] (-) TimerEvent: {}
+[5.024491] (-) TimerEvent: {}
+[5.124993] (-) TimerEvent: {}
+[5.225335] (-) TimerEvent: {}
+[5.325948] (-) TimerEvent: {}
+[5.426551] (-) TimerEvent: {}
+[5.527077] (-) TimerEvent: {}
+[5.627298] (-) TimerEvent: {}
+[5.727599] (-) TimerEvent: {}
+[5.827936] (-) TimerEvent: {}
+[5.928568] (-) TimerEvent: {}
+[6.029177] (-) TimerEvent: {}
+[6.129493] (-) TimerEvent: {}
+[6.230098] (-) TimerEvent: {}
+[6.330734] (-) TimerEvent: {}
+[6.431312] (-) TimerEvent: {}
+[6.531931] (-) TimerEvent: {}
+[6.632595] (-) TimerEvent: {}
+[6.733218] (-) TimerEvent: {}
+[6.833840] (-) TimerEvent: {}
+[6.934489] (-) TimerEvent: {}
+[7.035083] (-) TimerEvent: {}
+[7.135789] (-) TimerEvent: {}
+[7.236609] (-) TimerEvent: {}
+[7.337247] (-) TimerEvent: {}
+[7.438036] (-) TimerEvent: {}
+[7.538693] (-) TimerEvent: {}
+[7.639439] (-) TimerEvent: {}
+[7.739793] (-) TimerEvent: {}
+[7.840187] (-) TimerEvent: {}
+[7.940521] (-) TimerEvent: {}
+[8.041076] (-) TimerEvent: {}
+[8.141730] (-) TimerEvent: {}
+[8.242339] (-) TimerEvent: {}
+[8.342919] (-) TimerEvent: {}
+[8.443589] (-) TimerEvent: {}
+[8.544196] (-) TimerEvent: {}
+[8.644772] (-) TimerEvent: {}
+[8.745411] (-) TimerEvent: {}
+[8.845991] (-) TimerEvent: {}
+[8.946629] (-) TimerEvent: {}
+[9.047251] (-) TimerEvent: {}
+[9.147869] (-) TimerEvent: {}
+[9.248485] (-) TimerEvent: {}
+[9.349110] (-) TimerEvent: {}
+[9.449759] (-) TimerEvent: {}
+[9.550370] (-) TimerEvent: {}
+[9.650995] (-) TimerEvent: {}
+[9.673016] (mi_mundo) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[9.751215] (-) TimerEvent: {}
+[9.851839] (-) TimerEvent: {}
+[9.952372] (-) TimerEvent: {}
+[10.052657] (-) TimerEvent: {}
+[10.153173] (-) TimerEvent: {}
+[10.253784] (-) TimerEvent: {}
+[10.354378] (-) TimerEvent: {}
+[10.454989] (-) TimerEvent: {}
+[10.555622] (-) TimerEvent: {}
+[10.656260] (-) TimerEvent: {}
+[10.756867] (-) TimerEvent: {}
+[10.857471] (-) TimerEvent: {}
+[10.958093] (-) TimerEvent: {}
+[11.058741] (-) TimerEvent: {}
+[11.159385] (-) TimerEvent: {}
+[11.260045] (-) TimerEvent: {}
+[11.360687] (-) TimerEvent: {}
+[11.461311] (-) TimerEvent: {}
+[11.561923] (-) TimerEvent: {}
+[11.662580] (-) TimerEvent: {}
+[11.763351] (-) TimerEvent: {}
+[11.863931] (-) TimerEvent: {}
+[11.964711] (-) TimerEvent: {}
+[12.065351] (-) TimerEvent: {}
+[12.165878] (-) TimerEvent: {}
+[12.266176] (-) TimerEvent: {}
+[12.366491] (-) TimerEvent: {}
+[12.467042] (-) TimerEvent: {}
+[12.567748] (-) TimerEvent: {}
+[12.668420] (-) TimerEvent: {}
+[12.769110] (-) TimerEvent: {}
+[12.869855] (-) TimerEvent: {}
+[12.970688] (-) TimerEvent: {}
+[13.071329] (-) TimerEvent: {}
+[13.171925] (-) TimerEvent: {}
+[13.272534] (-) TimerEvent: {}
+[13.373108] (-) TimerEvent: {}
+[13.473858] (-) TimerEvent: {}
+[13.574474] (-) TimerEvent: {}
+[13.675031] (-) TimerEvent: {}
+[13.775541] (-) TimerEvent: {}
+[13.876190] (-) TimerEvent: {}
+[13.976815] (-) TimerEvent: {}
+[14.077419] (-) TimerEvent: {}
+[14.177999] (-) TimerEvent: {}
+[14.278632] (-) TimerEvent: {}
+[14.379073] (-) TimerEvent: {}
+[14.479720] (-) TimerEvent: {}
+[14.580356] (-) TimerEvent: {}
+[14.680978] (-) TimerEvent: {}
+[14.781628] (-) TimerEvent: {}
+[14.882255] (-) TimerEvent: {}
+[14.982875] (-) TimerEvent: {}
+[15.083555] (-) TimerEvent: {}
+[15.184207] (-) TimerEvent: {}
+[15.284742] (-) TimerEvent: {}
+[15.385239] (-) TimerEvent: {}
+[15.485895] (-) TimerEvent: {}
+[15.586541] (-) TimerEvent: {}
+[15.687185] (-) TimerEvent: {}
+[15.787805] (-) TimerEvent: {}
+[15.888457] (-) TimerEvent: {}
+[15.989068] (-) TimerEvent: {}
+[16.089712] (-) TimerEvent: {}
+[16.190419] (-) TimerEvent: {}
+[16.291033] (-) TimerEvent: {}
+[16.391647] (-) TimerEvent: {}
+[16.492190] (-) TimerEvent: {}
+[16.592446] (-) TimerEvent: {}
+[16.692772] (-) TimerEvent: {}
+[16.793203] (-) TimerEvent: {}
+[16.893826] (-) TimerEvent: {}
+[16.994430] (-) TimerEvent: {}
+[17.095039] (-) TimerEvent: {}
+[17.195678] (-) TimerEvent: {}
+[17.296283] (-) TimerEvent: {}
+[17.396829] (-) TimerEvent: {}
+[17.497277] (-) TimerEvent: {}
+[17.597892] (-) TimerEvent: {}
+[17.698532] (-) TimerEvent: {}
+[17.799135] (-) TimerEvent: {}
+[17.899612] (-) TimerEvent: {}
+[18.000246] (-) TimerEvent: {}
+[18.100870] (-) TimerEvent: {}
+[18.201471] (-) TimerEvent: {}
+[18.302103] (-) TimerEvent: {}
+[18.402811] (-) TimerEvent: {}
+[18.503415] (-) TimerEvent: {}
+[18.604026] (-) TimerEvent: {}
+[18.704674] (-) TimerEvent: {}
+[18.805327] (-) TimerEvent: {}
+[18.905941] (-) TimerEvent: {}
+[19.006595] (-) TimerEvent: {}
+[19.107229] (-) TimerEvent: {}
+[19.207793] (-) TimerEvent: {}
+[19.308393] (-) TimerEvent: {}
+[19.408996] (-) TimerEvent: {}
+[19.509632] (-) TimerEvent: {}
+[19.610253] (-) TimerEvent: {}
+[19.710851] (-) TimerEvent: {}
+[19.811376] (-) TimerEvent: {}
+[19.911748] (-) TimerEvent: {}
+[20.012310] (-) TimerEvent: {}
+[20.112923] (-) TimerEvent: {}
+[20.213538] (-) TimerEvent: {}
+[20.314111] (-) TimerEvent: {}
+[20.414741] (-) TimerEvent: {}
+[20.515309] (-) TimerEvent: {}
+[20.615916] (-) TimerEvent: {}
+[20.716511] (-) TimerEvent: {}
+[20.817087] (-) TimerEvent: {}
+[20.917722] (-) TimerEvent: {}
+[21.018318] (-) TimerEvent: {}
+[21.118955] (-) TimerEvent: {}
+[21.219593] (-) TimerEvent: {}
+[21.320229] (-) TimerEvent: {}
+[21.420850] (-) TimerEvent: {}
+[21.521451] (-) TimerEvent: {}
+[21.622066] (-) TimerEvent: {}
+[21.722715] (-) TimerEvent: {}
+[21.823206] (-) TimerEvent: {}
+[21.923588] (-) TimerEvent: {}
+[22.024218] (-) TimerEvent: {}
+[22.072230] (mi_mundo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.124349] (-) TimerEvent: {}
+[22.224955] (-) TimerEvent: {}
+[22.325671] (-) TimerEvent: {}
+[22.426454] (-) TimerEvent: {}
+[22.527232] (-) TimerEvent: {}
+[22.627916] (-) TimerEvent: {}
+[22.728534] (-) TimerEvent: {}
+[22.829253] (-) TimerEvent: {}
+[22.929868] (-) TimerEvent: {}
+[23.030527] (-) TimerEvent: {}
+[23.131114] (-) TimerEvent: {}
+[23.231803] (-) TimerEvent: {}
+[23.316919] (mi_mundo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[23.331981] (-) TimerEvent: {}
+[23.432643] (-) TimerEvent: {}
+[23.533263] (-) TimerEvent: {}
+[23.633859] (-) TimerEvent: {}
+[23.734581] (-) TimerEvent: {}
+[23.835236] (-) TimerEvent: {}
+[23.935891] (-) TimerEvent: {}
+[24.036523] (-) TimerEvent: {}
+[24.137169] (-) TimerEvent: {}
+[24.237802] (-) TimerEvent: {}
+[24.338437] (-) TimerEvent: {}
+[24.439048] (-) TimerEvent: {}
+[24.539685] (-) TimerEvent: {}
+[24.640307] (-) TimerEvent: {}
+[24.740924] (-) TimerEvent: {}
+[24.841550] (-) TimerEvent: {}
+[24.942194] (-) TimerEvent: {}
+[25.042815] (-) TimerEvent: {}
+[25.143417] (-) TimerEvent: {}
+[25.244039] (-) TimerEvent: {}
+[25.344651] (-) TimerEvent: {}
+[25.445284] (-) TimerEvent: {}
+[25.545941] (-) TimerEvent: {}
+[25.646647] (-) TimerEvent: {}
+[25.738312] (mi_mundo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[25.746837] (-) TimerEvent: {}
+[25.847441] (-) TimerEvent: {}
+[25.948137] (-) TimerEvent: {}
+[26.048964] (-) TimerEvent: {}
+[26.149623] (-) TimerEvent: {}
+[26.250204] (-) TimerEvent: {}
+[26.350551] (-) TimerEvent: {}
+[26.451082] (-) TimerEvent: {}
+[26.551472] (-) TimerEvent: {}
+[26.652258] (-) TimerEvent: {}
+[26.753044] (-) TimerEvent: {}
+[26.853754] (-) TimerEvent: {}
+[26.954319] (-) TimerEvent: {}
+[27.054931] (-) TimerEvent: {}
+[27.155554] (-) TimerEvent: {}
+[27.256220] (-) TimerEvent: {}
+[27.356831] (-) TimerEvent: {}
+[27.457455] (-) TimerEvent: {}
+[27.558054] (-) TimerEvent: {}
+[27.658687] (-) TimerEvent: {}
+[27.759198] (-) TimerEvent: {}
+[27.859504] (-) TimerEvent: {}
+[27.960128] (-) TimerEvent: {}
+[27.974787] (mi_mundo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[28.060283] (-) TimerEvent: {}
+[28.160876] (-) TimerEvent: {}
+[28.261562] (-) TimerEvent: {}
+[28.362228] (-) TimerEvent: {}
+[28.462841] (-) TimerEvent: {}
+[28.563504] (-) TimerEvent: {}
+[28.664165] (-) TimerEvent: {}
+[28.764768] (-) TimerEvent: {}
+[28.865372] (-) TimerEvent: {}
+[28.965949] (-) TimerEvent: {}
+[29.066640] (-) TimerEvent: {}
+[29.167315] (-) TimerEvent: {}
+[29.267938] (-) TimerEvent: {}
+[29.368690] (-) TimerEvent: {}
+[29.469312] (-) TimerEvent: {}
+[29.569892] (-) TimerEvent: {}
+[29.624809] (mi_mundo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[29.670063] (-) TimerEvent: {}
+[29.770660] (-) TimerEvent: {}
+[29.871275] (-) TimerEvent: {}
+[29.971903] (-) TimerEvent: {}
+[30.072550] (-) TimerEvent: {}
+[30.173177] (-) TimerEvent: {}
+[30.273802] (-) TimerEvent: {}
+[30.374412] (-) TimerEvent: {}
+[30.475083] (-) TimerEvent: {}
+[30.575739] (-) TimerEvent: {}
+[30.676353] (-) TimerEvent: {}
+[30.777055] (-) TimerEvent: {}
+[30.877710] (-) TimerEvent: {}
+[30.978322] (-) TimerEvent: {}
+[31.078905] (-) TimerEvent: {}
+[31.179549] (-) TimerEvent: {}
+[31.280263] (-) TimerEvent: {}
+[31.380884] (-) TimerEvent: {}
+[31.481488] (-) TimerEvent: {}
+[31.582068] (-) TimerEvent: {}
+[31.682762] (-) TimerEvent: {}
+[31.783375] (-) TimerEvent: {}
+[31.883990] (-) TimerEvent: {}
+[31.984604] (-) TimerEvent: {}
+[32.085248] (-) TimerEvent: {}
+[32.186013] (-) TimerEvent: {}
+[32.286654] (-) TimerEvent: {}
+[32.387175] (-) TimerEvent: {}
+[32.487798] (-) TimerEvent: {}
+[32.588434] (-) TimerEvent: {}
+[32.689055] (-) TimerEvent: {}
+[32.789661] (-) TimerEvent: {}
+[32.890333] (-) TimerEvent: {}
+[32.990959] (-) TimerEvent: {}
+[33.091626] (-) TimerEvent: {}
+[33.192259] (-) TimerEvent: {}
+[33.292894] (-) TimerEvent: {}
+[33.393558] (-) TimerEvent: {}
+[33.494214] (-) TimerEvent: {}
+[33.594848] (-) TimerEvent: {}
+[33.695518] (-) TimerEvent: {}
+[33.796180] (-) TimerEvent: {}
+[33.896821] (-) TimerEvent: {}
+[33.997490] (-) TimerEvent: {}
+[34.098129] (-) TimerEvent: {}
+[34.198787] (-) TimerEvent: {}
+[34.299451] (-) TimerEvent: {}
+[34.400069] (-) TimerEvent: {}
+[34.500890] (-) TimerEvent: {}
+[34.601550] (-) TimerEvent: {}
+[34.702192] (-) TimerEvent: {}
+[34.802806] (-) TimerEvent: {}
+[34.903405] (-) TimerEvent: {}
+[35.004023] (-) TimerEvent: {}
+[35.104679] (-) TimerEvent: {}
+[35.205314] (-) TimerEvent: {}
+[35.305935] (-) TimerEvent: {}
+[35.406546] (-) TimerEvent: {}
+[35.507186] (-) TimerEvent: {}
+[35.607809] (-) TimerEvent: {}
+[35.708424] (-) TimerEvent: {}
+[35.809045] (-) TimerEvent: {}
+[35.909684] (-) TimerEvent: {}
+[36.010315] (-) TimerEvent: {}
+[36.110910] (-) TimerEvent: {}
+[36.211307] (-) TimerEvent: {}
+[36.311839] (-) TimerEvent: {}
+[36.412211] (-) TimerEvent: {}
+[36.512835] (-) TimerEvent: {}
+[36.613490] (-) TimerEvent: {}
+[36.714125] (-) TimerEvent: {}
+[36.814788] (-) TimerEvent: {}
+[36.915437] (-) TimerEvent: {}
+[37.016070] (-) TimerEvent: {}
+[37.116721] (-) TimerEvent: {}
+[37.217464] (-) TimerEvent: {}
+[37.318194] (-) TimerEvent: {}
+[37.421219] (-) TimerEvent: {}
+[37.521852] (-) TimerEvent: {}
+[37.622461] (-) TimerEvent: {}
+[37.723065] (-) TimerEvent: {}
+[37.823696] (-) TimerEvent: {}
+[37.924322] (-) TimerEvent: {}
+[38.024944] (-) TimerEvent: {}
+[38.103095] (mi_mundo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[38.125102] (-) TimerEvent: {}
+[38.225711] (-) TimerEvent: {}
+[38.326328] (-) TimerEvent: {}
+[38.426954] (-) TimerEvent: {}
+[38.527620] (-) TimerEvent: {}
+[38.628264] (-) TimerEvent: {}
+[38.687473] (mi_mundo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[38.728438] (-) TimerEvent: {}
+[38.829066] (-) TimerEvent: {}
+[38.929724] (-) TimerEvent: {}
+[39.030346] (-) TimerEvent: {}
+[39.130971] (-) TimerEvent: {}
+[39.231644] (-) TimerEvent: {}
+[39.332331] (-) TimerEvent: {}
+[39.432946] (-) TimerEvent: {}
+[39.533592] (-) TimerEvent: {}
+[39.634346] (-) TimerEvent: {}
+[39.735047] (-) TimerEvent: {}
+[39.835699] (-) TimerEvent: {}
+[39.936320] (-) TimerEvent: {}
+[40.036946] (-) TimerEvent: {}
+[40.137576] (-) TimerEvent: {}
+[40.238216] (-) TimerEvent: {}
+[40.338847] (-) TimerEvent: {}
+[40.439457] (-) TimerEvent: {}
+[40.540066] (-) TimerEvent: {}
+[40.640721] (-) TimerEvent: {}
+[40.741358] (-) TimerEvent: {}
+[40.841989] (-) TimerEvent: {}
+[40.942655] (-) TimerEvent: {}
+[41.043295] (-) TimerEvent: {}
+[41.143935] (-) TimerEvent: {}
+[41.244598] (-) TimerEvent: {}
+[41.345254] (-) TimerEvent: {}
+[41.445894] (-) TimerEvent: {}
+[41.546563] (-) TimerEvent: {}
+[41.647234] (-) TimerEvent: {}
+[41.747871] (-) TimerEvent: {}
+[41.848520] (-) TimerEvent: {}
+[41.949172] (-) TimerEvent: {}
+[42.049814] (-) TimerEvent: {}
+[42.150266] (-) TimerEvent: {}
+[42.250488] (-) TimerEvent: {}
+[42.334161] (slam_obstacle_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build'], 'cwd': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'javier', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/javier', 'OLDPWD': '/home/javier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2122', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/javier/turtlebot3_ws/install:/home/javier/slam_obstacle_ws/install:/home/javier/t2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'javier', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'javier', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/javier/.gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models::/usr/share/gazebo-11/models:/home/javier/.gazebo/models:/home/javier/slam_obstacle_ws/src/mi_mundo/models:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/javier-LAI:@/tmp/.ICE-unix/1930,unix/javier-LAI:/tmp/.ICE-unix/1930', 'FASTRTPS_DEFAULT_PROFILES_FILE': '', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5377df5_70c1_4ba2_89d2_fe49c3bac727', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P92232', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/opt/ros/humble/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/obstacle_detector/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/javier/slam_obstacle_ws/build/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/t2_ws/install/t2_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/mi_mundo'}, 'shell': False}
+[42.350585] (-) TimerEvent: {}
+[42.450791] (-) TimerEvent: {}
+[42.551007] (-) TimerEvent: {}
+[42.651307] (-) TimerEvent: {}
+[42.728426] (mi_mundo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[42.739429] (slam_obstacle_detection) StdoutLine: {'line': b'running develop\n'}
+[42.751416] (-) TimerEvent: {}
+[42.851750] (-) TimerEvent: {}
+[42.952074] (-) TimerEvent: {}
+[43.022448] (slam_obstacle_detection) StdoutLine: {'line': b'Removing /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam-obstacle-detection.egg-link (link to .)\n'}
+[43.041056] (slam_obstacle_detection) CommandEnded: {'returncode': 0}
+[43.042445] (slam_obstacle_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/slam_obstacle_detection', 'build', '--build-base', '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build', 'install', '--record', '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'javier', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/javier', 'OLDPWD': '/home/javier', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2122', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/javier/turtlebot3_ws/install:/home/javier/slam_obstacle_ws/install:/home/javier/t2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'javier', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'javier', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/javier/.gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models::/usr/share/gazebo-11/models:/home/javier/.gazebo/models:/home/javier/slam_obstacle_ws/src/mi_mundo/models:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/javier-LAI:@/tmp/.ICE-unix/1930,unix/javier-LAI:/tmp/.ICE-unix/1930', 'FASTRTPS_DEFAULT_PROFILES_FILE': '', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e5377df5_70c1_4ba2_89d2_fe49c3bac727', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P92232', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection', 'QT_QPA_PLATFORM': 'xcb', 'TURTLEBOT3_MODEL': 'waffle_pi', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/opt/ros/humble/lib:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/obstacle_detector/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/javier/slam_obstacle_ws/build/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/t2_ws/install/t2_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/mi_mundo'}, 'shell': False}
+[43.052173] (-) TimerEvent: {}
+[43.152374] (-) TimerEvent: {}
+[43.252597] (-) TimerEvent: {}
+[43.270772] (slam_obstacle_detection) StdoutLine: {'line': b'running egg_info\n'}
+[43.271216] (slam_obstacle_detection) StdoutLine: {'line': b'writing ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/PKG-INFO\n'}
+[43.271532] (slam_obstacle_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/dependency_links.txt\n'}
+[43.271739] (slam_obstacle_detection) StdoutLine: {'line': b'writing entry points to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/entry_points.txt\n'}
+[43.271841] (slam_obstacle_detection) StdoutLine: {'line': b'writing requirements to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/requires.txt\n'}
+[43.271968] (slam_obstacle_detection) StdoutLine: {'line': b'writing top-level names to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/top_level.txt\n'}
+[43.298334] (slam_obstacle_detection) StdoutLine: {'line': b"reading manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'\n"}
+[43.352780] (-) TimerEvent: {}
+[43.369482] (slam_obstacle_detection) StdoutLine: {'line': b"writing manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'\n"}
+[43.370133] (slam_obstacle_detection) StdoutLine: {'line': b'running build\n'}
+[43.370556] (slam_obstacle_detection) StdoutLine: {'line': b'running build_py\n'}
+[43.397510] (slam_obstacle_detection) StdoutLine: {'line': b'copying slam_obstacle_detection/move_robot.py -> /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection\n'}
+[43.398234] (slam_obstacle_detection) StdoutLine: {'line': b'copying slam_obstacle_detection/vision_node.py -> /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection\n'}
+[43.399108] (slam_obstacle_detection) StdoutLine: {'line': b'copying slam_obstacle_detection/wall_detector.py -> /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection\n'}
+[43.400061] (slam_obstacle_detection) StdoutLine: {'line': b'running install\n'}
+[43.401377] (slam_obstacle_detection) StdoutLine: {'line': b'running install_lib\n'}
+[43.404308] (slam_obstacle_detection) StdoutLine: {'line': b'creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection\n'}
+[43.404936] (slam_obstacle_detection) StdoutLine: {'line': b'copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/move_robot.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection\n'}
+[43.405469] (slam_obstacle_detection) StdoutLine: {'line': b'copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/vision_node.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection\n'}
+[43.405991] (slam_obstacle_detection) StdoutLine: {'line': b'copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/__init__.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection\n'}
+[43.406407] (slam_obstacle_detection) StdoutLine: {'line': b'copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/wall_detector.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection\n'}
+[43.408176] (slam_obstacle_detection) StdoutLine: {'line': b'byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/move_robot.py to move_robot.cpython-310.pyc\n'}
+[43.410035] (slam_obstacle_detection) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (move_robot.py, line 74)\n'}
+[43.410588] (slam_obstacle_detection) StdoutLine: {'line': b'byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/vision_node.py to vision_node.cpython-310.pyc\n'}
+[43.413719] (slam_obstacle_detection) StdoutLine: {'line': b'byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/__init__.py to __init__.cpython-310.pyc\n'}
+[43.414418] (slam_obstacle_detection) StdoutLine: {'line': b'byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/wall_detector.py to wall_detector.cpython-310.pyc\n'}
+[43.416334] (slam_obstacle_detection) StdoutLine: {'line': b'running install_data\n'}
+[43.417018] (slam_obstacle_detection) StdoutLine: {'line': b'copying resource/slam_obstacle_detection -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/ament_index/resource_index/packages\n'}
+[43.452952] (-) TimerEvent: {}
+[43.487054] (slam_obstacle_detection) StdoutLine: {'line': b'copying package.xml -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection\n'}
+[43.493356] (slam_obstacle_detection) StdoutLine: {'line': b'copying launch/slam_world.launch.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/launch\n'}
+[43.532098] (slam_obstacle_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[43.535440] (slam_obstacle_detection) StdoutLine: {'line': b'Copying ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection-0.0.0-py3.10.egg-info\n'}
+[43.553116] (-) TimerEvent: {}
+[43.597024] (slam_obstacle_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[43.646972] (slam_obstacle_detection) StdoutLine: {'line': b'Installing move_robot script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection\n'}
+[43.647221] (slam_obstacle_detection) StdoutLine: {'line': b'Installing vision_node script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection\n'}
+[43.647353] (slam_obstacle_detection) StdoutLine: {'line': b'Installing wall_detector script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection\n'}
+[43.647646] (slam_obstacle_detection) StdoutLine: {'line': b"writing list of installed files to '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log'\n"}
+[43.653235] (-) TimerEvent: {}
+[43.667315] (slam_obstacle_detection) CommandEnded: {'returncode': 0}
+[43.753412] (-) TimerEvent: {}
+[43.854000] (-) TimerEvent: {}
+[43.954615] (-) TimerEvent: {}
+[44.053100] (slam_obstacle_detection) JobEnded: {'identifier': 'slam_obstacle_detection', 'rc': 0}
+[44.054740] (-) TimerEvent: {}
+[44.155164] (-) TimerEvent: {}
+[44.255497] (-) TimerEvent: {}
+[44.356060] (-) TimerEvent: {}
+[44.456469] (-) TimerEvent: {}
+[44.557067] (-) TimerEvent: {}
+[44.657699] (-) TimerEvent: {}
+[44.758302] (-) TimerEvent: {}
+[44.858897] (-) TimerEvent: {}
+[44.959519] (-) TimerEvent: {}
+[45.060114] (-) TimerEvent: {}
+[45.160744] (-) TimerEvent: {}
+[45.261345] (-) TimerEvent: {}
+[45.335194] (mi_mundo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[45.361495] (-) TimerEvent: {}
+[45.461969] (-) TimerEvent: {}
+[45.562609] (-) TimerEvent: {}
+[45.663254] (-) TimerEvent: {}
+[45.763859] (-) TimerEvent: {}
+[45.864477] (-) TimerEvent: {}
+[45.965090] (-) TimerEvent: {}
+[46.065718] (-) TimerEvent: {}
+[46.166217] (-) TimerEvent: {}
+[46.266508] (-) TimerEvent: {}
+[46.367118] (-) TimerEvent: {}
+[46.467646] (-) TimerEvent: {}
+[46.516251] (mi_mundo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[46.567822] (-) TimerEvent: {}
+[46.668452] (-) TimerEvent: {}
+[46.704066] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[46.768651] (-) TimerEvent: {}
+[46.869263] (-) TimerEvent: {}
+[46.910745] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[46.967503] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[46.969388] (-) TimerEvent: {}
+[47.045633] (mi_mundo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[47.062421] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[47.069548] (-) TimerEvent: {}
+[47.098315] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[47.098799] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[47.099094] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[47.099352] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[47.099590] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[47.099924] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[47.100128] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[47.100303] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[47.100443] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[47.100570] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[47.100695] (mi_mundo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[47.100811] (mi_mundo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[47.169700] (-) TimerEvent: {}
+[47.269928] (-) TimerEvent: {}
+[47.284414] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[47.318430] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[47.318805] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[47.370030] (-) TimerEvent: {}
+[47.376227] (mi_mundo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[47.395631] (mi_mundo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[47.400533] (mi_mundo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[47.470259] (-) TimerEvent: {}
+[47.570858] (-) TimerEvent: {}
+[47.593628] (mi_mundo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[47.655957] (mi_mundo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[47.671019] (-) TimerEvent: {}
+[47.726563] (mi_mundo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[47.771253] (-) TimerEvent: {}
+[47.871845] (-) TimerEvent: {}
+[47.890839] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[47.893338] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[47.943696] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[47.948882] (mi_mundo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[47.972003] (-) TimerEvent: {}
+[47.997321] (mi_mundo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[48.072252] (-) TimerEvent: {}
+[48.165308] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[48.172379] (-) TimerEvent: {}
+[48.208853] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[48.211269] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[48.238111] (mi_mundo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[48.238608] (mi_mundo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[48.272554] (-) TimerEvent: {}
+[48.297197] (mi_mundo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[48.334830] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[48.337065] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[48.338626] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[48.367538] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[48.369587] (mi_mundo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[48.372719] (-) TimerEvent: {}
+[48.473258] (-) TimerEvent: {}
+[48.573594] (-) TimerEvent: {}
+[48.615377] (mi_mundo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[48.671701] (mi_mundo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[48.673761] (-) TimerEvent: {}
+[48.774341] (-) TimerEvent: {}
+[48.822332] (mi_mundo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[48.874479] (-) TimerEvent: {}
+[48.948745] (mi_mundo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[48.974678] (-) TimerEvent: {}
+[49.075279] (-) TimerEvent: {}
+[49.080922] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[49.082104] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[49.083481] (mi_mundo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[49.175472] (-) TimerEvent: {}
+[49.276065] (-) TimerEvent: {}
+[49.376688] (-) TimerEvent: {}
+[49.417997] (mi_mundo) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[49.476878] (-) TimerEvent: {}
+[49.512082] (mi_mundo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[49.577080] (-) TimerEvent: {}
+[49.677710] (-) TimerEvent: {}
+[49.778219] (-) TimerEvent: {}
+[49.878540] (-) TimerEvent: {}
+[49.979109] (-) TimerEvent: {}
+[50.079741] (-) TimerEvent: {}
+[50.180314] (-) TimerEvent: {}
+[50.222944] (mi_mundo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[50.238007] (mi_mundo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[50.258996] (mi_mundo) StdoutLine: {'line': b'-- Configuring done\n'}
+[50.280429] (-) TimerEvent: {}
+[50.380900] (-) TimerEvent: {}
+[50.481620] (-) TimerEvent: {}
+[50.482813] (mi_mundo) StdoutLine: {'line': b'-- Generating done\n'}
+[50.494709] (mi_mundo) StdoutLine: {'line': b'-- Build files have been written to: /home/javier/slam_obstacle_ws/build/mi_mundo\n'}
+[50.533906] (mi_mundo) CommandEnded: {'returncode': 0}
+[50.535019] (mi_mundo) JobProgress: {'identifier': 'mi_mundo', 'progress': 'build'}
+[50.537201] (mi_mundo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/javier/slam_obstacle_ws/build/mi_mundo', '--', '-j12', '-l12'], 'cwd': '/home/javier/slam_obstacle_ws/build/mi_mundo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/javier'), ('OLDPWD', '/home/javier'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2122'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/javier/turtlebot3_ws/install:/home/javier/slam_obstacle_ws/install:/home/javier/t2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'javier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/javier/.gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models::/usr/share/gazebo-11/models:/home/javier/.gazebo/models:/home/javier/slam_obstacle_ws/src/mi_mundo/models:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/javier-LAI:@/tmp/.ICE-unix/1930,unix/javier-LAI:/tmp/.ICE-unix/1930'), ('FASTRTPS_DEFAULT_PROFILES_FILE', ''), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5377df5_70c1_4ba2_89d2_fe49c3bac727'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P92232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier/slam_obstacle_ws/build/mi_mundo'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/javier/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/obstacle_detector/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/javier/slam_obstacle_ws/build/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/t2_ws/install/t2_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble')]), 'shell': False}
+[50.581803] (-) TimerEvent: {}
+[50.682411] (-) TimerEvent: {}
+[50.734992] (mi_mundo) CommandEnded: {'returncode': 0}
+[50.744377] (mi_mundo) JobProgress: {'identifier': 'mi_mundo', 'progress': 'install'}
+[50.752222] (mi_mundo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/javier/slam_obstacle_ws/build/mi_mundo'], 'cwd': '/home/javier/slam_obstacle_ws/build/mi_mundo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'javier'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/javier'), ('OLDPWD', '/home/javier'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2122'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/javier/turtlebot3_ws/install:/home/javier/slam_obstacle_ws/install:/home/javier/t2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'javier'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'javier'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/javier/.gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models::/usr/share/gazebo-11/models:/home/javier/.gazebo/models:/home/javier/slam_obstacle_ws/src/mi_mundo/models:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/javier/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/javier-LAI:@/tmp/.ICE-unix/1930,unix/javier-LAI:/tmp/.ICE-unix/1930'), ('FASTRTPS_DEFAULT_PROFILES_FILE', ''), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5377df5_70c1_4ba2_89d2_fe49c3bac727'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P92232'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/javier/slam_obstacle_ws/build/mi_mundo'), ('QT_QPA_PLATFORM', 'xcb'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/opt/ros/humble/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/javier/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/obstacle_detector/lib/python3.10/site-packages:/home/javier/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/javier/slam_obstacle_ws/build/slam_obstacle_detection:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:/home/javier/t2_ws/install/t2_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/javier/turtlebot3_ws/install/turtlebot3:/home/javier/turtlebot3_ws/install/turtlebot3_simulations:/home/javier/turtlebot3_ws/install/turtlebot3_bringup:/home/javier/turtlebot3_ws/install/turtlebot3_node:/home/javier/turtlebot3_ws/install/turtlebot3_navigation2:/home/javier/turtlebot3_ws/install/turtlebot3_gazebo:/home/javier/turtlebot3_ws/install/turtlebot3_fake_node:/home/javier/turtlebot3_ws/install/turtlebot3_description:/home/javier/turtlebot3_ws/install/turtlebot3_cartographer:/home/javier/slam_obstacle_ws/install/mi_mundo:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble')]), 'shell': False}
+[50.757731] (mi_mundo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.758105] (mi_mundo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[50.758724] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/worlds/nuevo_mapa.world\n'}
+[50.758877] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/package_run_dependencies/mi_mundo\n'}
+[50.759280] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/parent_prefix_path/mi_mundo\n'}
+[50.759556] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.sh\n'}
+[50.759692] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.dsv\n'}
+[50.759951] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.sh\n'}
+[50.760055] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.dsv\n'}
+[50.782472] (-) TimerEvent: {}
+[50.810421] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.bash\n'}
+[50.811284] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.sh\n'}
+[50.811697] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.zsh\n'}
+[50.811916] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.dsv\n'}
+[50.812114] (mi_mundo) StdoutLine: {'line': b'-- Symlinking: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.dsv\n'}
+[50.845384] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/packages/mi_mundo\n'}
+[50.847472] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig.cmake\n'}
+[50.848445] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig-version.cmake\n'}
+[50.849258] (mi_mundo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.xml\n'}
+[50.859656] (mi_mundo) CommandEnded: {'returncode': 0}
+[50.882997] (-) TimerEvent: {}
+[50.901637] (mi_mundo) JobEnded: {'identifier': 'mi_mundo', 'rc': 0}
+[50.902600] (-) EventReactorShutdown: {}

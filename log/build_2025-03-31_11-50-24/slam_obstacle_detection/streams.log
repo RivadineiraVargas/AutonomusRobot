@@ -1,0 +1,26 @@
+[0.643s] Invoking command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data
+[0.872s] running egg_info
+[0.872s] writing ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/PKG-INFO
+[0.873s] writing dependency_links to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/dependency_links.txt
+[0.873s] writing entry points to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/entry_points.txt
+[0.873s] writing requirements to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/requires.txt
+[0.873s] writing top-level names to ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/top_level.txt
+[0.899s] reading manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.901s] copying slam_obstacle_detection/move_robot.py -> /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection
+[0.901s] running install
+[0.901s] running install_lib
+[0.901s] copying /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build/lib/slam_obstacle_detection/move_robot.py -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection
+[0.902s] byte-compiling /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection/move_robot.py to move_robot.cpython-310.pyc
+[0.903s] running install_data
+[0.903s] running install_egg_info
+[0.904s] removing '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.904s] Copying ../../build/slam_obstacle_detection/slam_obstacle_detection.egg-info to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam_obstacle_detection-0.0.0-py3.10.egg-info
+[0.905s] running install_scripts
+[0.919s] Installing move_robot script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[0.919s] Installing vision_node script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[0.919s] Installing wall_detector script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[0.920s] writing list of installed files to '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log'
+[0.938s] Invoked command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection' returned '0': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data

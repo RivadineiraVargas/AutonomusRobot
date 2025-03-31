@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/javier/slam_obstacle_ws/build/mi_mundo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --build /home/javier/slam_obstacle_ws/build/mi_mundo -- -j12 -l12
+[0.264s] Invoked command in '/home/javier/slam_obstacle_ws/build/mi_mundo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --build /home/javier/slam_obstacle_ws/build/mi_mundo -- -j12 -l12
+[0.272s] Invoking command in '/home/javier/slam_obstacle_ws/build/mi_mundo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --install /home/javier/slam_obstacle_ws/build/mi_mundo
+[0.278s] -- Install configuration: ""
+[0.278s] -- Execute custom install script
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/worlds/nuevo_mapa.world
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/package_run_dependencies/mi_mundo
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/parent_prefix_path/mi_mundo
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.sh
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.dsv
+[0.279s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.sh
+[0.280s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.dsv
+[0.280s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.bash
+[0.280s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.sh
+[0.280s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.zsh
+[0.280s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.dsv
+[0.280s] -- Symlinking: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.dsv
+[0.287s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/packages/mi_mundo
+[0.287s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig.cmake
+[0.287s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig-version.cmake
+[0.287s] -- Up-to-date symlink: /home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.xml
+[0.289s] Invoked command in '/home/javier/slam_obstacle_ws/build/mi_mundo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --install /home/javier/slam_obstacle_ws/build/mi_mundo

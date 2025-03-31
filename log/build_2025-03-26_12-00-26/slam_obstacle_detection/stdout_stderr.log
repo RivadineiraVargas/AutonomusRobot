@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating slam_obstacle_detection.egg-info
+writing slam_obstacle_detection.egg-info/PKG-INFO
+writing dependency_links to slam_obstacle_detection.egg-info/dependency_links.txt
+writing entry points to slam_obstacle_detection.egg-info/entry_points.txt
+writing requirements to slam_obstacle_detection.egg-info/requires.txt
+writing top-level names to slam_obstacle_detection.egg-info/top_level.txt
+writing manifest file 'slam_obstacle_detection.egg-info/SOURCES.txt'
+reading manifest file 'slam_obstacle_detection.egg-info/SOURCES.txt'
+writing manifest file 'slam_obstacle_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam-obstacle-detection.egg-link (link to .)
+Installing move_robot script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+Installing vision_node script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+Installing wall_detector script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+
+Installed /home/javier/slam_obstacle_ws/build/slam_obstacle_detection
+running symlink_data
+creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/ament_index
+creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/ament_index/resource_index
+creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/ament_index/resource_index/packages
+symbolically linking /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/resource/slam_obstacle_detection -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/ament_index/resource_index/packages
+symbolically linking /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/package.xml -> /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection

@@ -1,0 +1,16 @@
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/worlds/nuevo_mapa.world
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/package_run_dependencies/mi_mundo
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/parent_prefix_path/mi_mundo
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.sh
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/ament_prefix_path.dsv
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.sh
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/environment/path.dsv
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.bash
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.sh
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.zsh
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/local_setup.dsv
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.dsv
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/ament_index/resource_index/packages/mi_mundo
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig.cmake
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/cmake/mi_mundoConfig-version.cmake
+/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.xml

@@ -1,0 +1,1 @@
+/home/javier/slam_obstacle_ws/build/mi_mundo/ament_cmake_core/mi_mundoConfig.cmake

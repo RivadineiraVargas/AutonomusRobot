@@ -1,0 +1,19 @@
+[0.639s] Invoking command in '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build --no-deps symlink_data
+[0.883s] running develop
+[1.051s] running egg_info
+[1.051s] writing slam_obstacle_detection.egg-info/PKG-INFO
+[1.051s] writing dependency_links to slam_obstacle_detection.egg-info/dependency_links.txt
+[1.052s] writing entry points to slam_obstacle_detection.egg-info/entry_points.txt
+[1.052s] writing requirements to slam_obstacle_detection.egg-info/requires.txt
+[1.052s] writing top-level names to slam_obstacle_detection.egg-info/top_level.txt
+[1.081s] reading manifest file 'slam_obstacle_detection.egg-info/SOURCES.txt'
+[1.081s] writing manifest file 'slam_obstacle_detection.egg-info/SOURCES.txt'
+[1.082s] running build_ext
+[1.083s] Creating /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages/slam-obstacle-detection.egg-link (link to .)
+[1.083s] Installing move_robot script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[1.083s] Installing vision_node script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[1.084s] Installing wall_detector script to /home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/slam_obstacle_detection
+[1.084s] 
+[1.084s] Installed /home/javier/slam_obstacle_ws/build/slam_obstacle_detection
+[1.084s] running symlink_data
+[1.104s] Invoked command in '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection' returned '0': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build --no-deps symlink_data

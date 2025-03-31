@@ -1,0 +1,5 @@
+[console_scripts]
+move_robot = slam_obstacle_detection.move_robot:main
+vision_node = slam_obstacle_detection.vision_node:main
+wall_detector = slam_obstacle_detection.wall_detector:main
+

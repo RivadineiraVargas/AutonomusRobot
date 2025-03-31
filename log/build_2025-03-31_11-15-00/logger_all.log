@@ -1,0 +1,195 @@
+[7.272s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[7.273s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77850f194580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77850f2a1570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77850f2a1570>>, mixin_verb=('build',))
+[14.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[14.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[14.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[14.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[14.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[14.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[14.687s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/javier/slam_obstacle_ws'
+[14.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[14.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[14.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[14.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[14.688s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[14.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[14.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[14.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[14.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[14.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[14.817s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[14.818s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[14.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[14.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[14.818s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[14.818s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[14.819s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extensions ['ignore', 'ignore_ament_install']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extension 'ignore'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extension 'ignore_ament_install'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extensions ['colcon_pkg']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extension 'colcon_pkg'
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extensions ['colcon_meta']
+[14.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extension 'colcon_meta'
+[14.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extensions ['ros']
+[14.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mi_mundo) by extension 'ros'
+[14.848s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mi_mundo' with type 'ros.ament_cmake' and name 'mi_mundo'
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extensions ['ignore', 'ignore_ament_install']
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extension 'ignore'
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extension 'ignore_ament_install'
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extensions ['colcon_pkg']
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extension 'colcon_pkg'
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extensions ['colcon_meta']
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extension 'colcon_meta'
+[14.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extensions ['ros']
+[14.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_obstacle_detection) by extension 'ros'
+[14.869s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_obstacle_detection' with type 'ros.ament_python' and name 'slam_obstacle_detection'
+[14.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[14.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[14.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[14.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[14.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[15.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[15.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[15.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/javier/turtlebot3_ws/install
+[15.213s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/javier/slam_obstacle_ws/install
+[15.214s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/javier/t2_ws/install
+[15.222s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 469 installed packages in /opt/ros/humble
+[15.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_args' from command line to 'None'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_target' from command line to 'None'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_clean_cache' from command line to 'False'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_clean_first' from command line to 'False'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'cmake_force_configure' from command line to 'False'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'ament_cmake_args' from command line to 'None'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'catkin_cmake_args' from command line to 'None'
+[15.673s] Level 5:colcon.colcon_core.verb:set package 'mi_mundo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[15.673s] DEBUG:colcon.colcon_core.verb:Building package 'mi_mundo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/javier/slam_obstacle_ws/build/mi_mundo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/javier/slam_obstacle_ws/install/mi_mundo', 'merge_install': False, 'path': '/home/javier/slam_obstacle_ws/src/mi_mundo', 'symlink_install': False, 'test_result_base': None}
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_args' from command line to 'None'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_target' from command line to 'None'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_clean_first' from command line to 'False'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'cmake_force_configure' from command line to 'False'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'ament_cmake_args' from command line to 'None'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[15.674s] Level 5:colcon.colcon_core.verb:set package 'slam_obstacle_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[15.674s] DEBUG:colcon.colcon_core.verb:Building package 'slam_obstacle_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection', 'merge_install': False, 'path': '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection', 'symlink_install': False, 'test_result_base': None}
+[15.674s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[15.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[15.675s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/javier/slam_obstacle_ws/src/mi_mundo' with build type 'ament_cmake'
+[15.675s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/javier/slam_obstacle_ws/src/mi_mundo'
+[15.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[15.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.711s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.730s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection' with build type 'ament_python'
+[15.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_obstacle_detection', 'ament_prefix_path')
+[15.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/ament_prefix_path.ps1'
+[15.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/ament_prefix_path.dsv'
+[15.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/ament_prefix_path.sh'
+[15.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.750s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/javier/slam_obstacle_ws/build/mi_mundo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake /home/javier/slam_obstacle_ws/src/mi_mundo -DCMAKE_INSTALL_PREFIX=/home/javier/slam_obstacle_ws/install/mi_mundo
+[16.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection'
+[16.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[58.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build
+[58.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/javier/slam_obstacle_ws/build/slam_obstacle_detection' returned '0': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build
+[58.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data --force
+[59.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/javier/slam_obstacle_ws/src/slam_obstacle_detection' returned '0': PYTHONPATH=/home/javier/slam_obstacle_ws/build/slam_obstacle_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam_obstacle_detection build --build-base /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/build install --record /home/javier/slam_obstacle_ws/build/slam_obstacle_detection/install.log --single-version-externally-managed install_data --force
+[59.550s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection' for CMake module files
+[59.552s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection' for CMake config files
+[59.602s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib'
+[59.603s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/bin'
+[59.603s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/pkgconfig/slam_obstacle_detection.pc'
+[59.604s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/lib/python3.10/site-packages'
+[59.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_obstacle_detection', 'pythonpath')
+[59.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/pythonpath.ps1'
+[59.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/pythonpath.dsv'
+[59.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/hook/pythonpath.sh'
+[59.611s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/bin'
+[59.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_obstacle_detection)
+[59.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/package.ps1'
+[59.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/package.dsv'
+[59.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/package.sh'
+[59.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/package.bash'
+[59.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/slam_obstacle_detection/package.zsh'
+[59.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/javier/slam_obstacle_ws/install/slam_obstacle_detection/share/colcon-core/packages/slam_obstacle_detection)
+[66.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/javier/slam_obstacle_ws/build/mi_mundo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake /home/javier/slam_obstacle_ws/src/mi_mundo -DCMAKE_INSTALL_PREFIX=/home/javier/slam_obstacle_ws/install/mi_mundo
+[66.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/javier/slam_obstacle_ws/build/mi_mundo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --build /home/javier/slam_obstacle_ws/build/mi_mundo -- -j12 -l12
+[66.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/javier/slam_obstacle_ws/build/mi_mundo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --build /home/javier/slam_obstacle_ws/build/mi_mundo -- -j12 -l12
+[66.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/javier/slam_obstacle_ws/build/mi_mundo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --install /home/javier/slam_obstacle_ws/build/mi_mundo
+[66.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_mundo)
+[66.532s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo' for CMake module files
+[66.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/javier/slam_obstacle_ws/build/mi_mundo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/javier/turtlebot3_ws/install/turtlebot3_teleop:/home/javier/turtlebot3_ws/install/obstacle_detector:/home/javier/turtlebot3_ws/install/turtlebot3_example:/home/javier/slam_obstacle_ws/install/slam_obstacle_detection:/home/javier/t2_ws/install/t2_robot:/opt/ros/humble /usr/bin/cmake --install /home/javier/slam_obstacle_ws/build/mi_mundo
+[66.537s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo' for CMake config files
+[66.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_mundo', 'cmake_prefix_path')
+[66.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.ps1'
+[66.541s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.dsv'
+[66.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.sh'
+[66.545s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/bin'
+[66.545s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/lib/pkgconfig/mi_mundo.pc'
+[66.546s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/lib/python3.10/site-packages'
+[66.547s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/bin'
+[66.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.ps1'
+[66.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.dsv'
+[66.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.sh'
+[66.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.bash'
+[66.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.zsh'
+[66.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/javier/slam_obstacle_ws/install/mi_mundo/share/colcon-core/packages/mi_mundo)
+[66.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mi_mundo)
+[66.560s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo' for CMake module files
+[66.562s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo' for CMake config files
+[66.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('mi_mundo', 'cmake_prefix_path')
+[66.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.ps1'
+[66.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.dsv'
+[66.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/hook/cmake_prefix_path.sh'
+[66.568s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/bin'
+[66.568s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/lib/pkgconfig/mi_mundo.pc'
+[66.569s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/lib/python3.10/site-packages'
+[66.570s] Level 1:colcon.colcon_core.environment:checking '/home/javier/slam_obstacle_ws/install/mi_mundo/bin'
+[66.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.ps1'
+[66.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.dsv'
+[66.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.sh'
+[66.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.bash'
+[66.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/javier/slam_obstacle_ws/install/mi_mundo/share/mi_mundo/package.zsh'
+[66.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/javier/slam_obstacle_ws/install/mi_mundo/share/colcon-core/packages/mi_mundo)
+[66.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[66.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[66.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[66.577s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[66.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[66.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[66.650s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[66.686s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[66.687s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/javier/slam_obstacle_ws/install/local_setup.ps1'
+[66.698s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/javier/slam_obstacle_ws/install/_local_setup_util_ps1.py'
+[66.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/javier/slam_obstacle_ws/install/setup.ps1'
+[66.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/javier/slam_obstacle_ws/install/local_setup.sh'
+[66.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/javier/slam_obstacle_ws/install/_local_setup_util_sh.py'
+[66.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/javier/slam_obstacle_ws/install/setup.sh'
+[66.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/javier/slam_obstacle_ws/install/local_setup.bash'
+[66.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/javier/slam_obstacle_ws/install/setup.bash'
+[66.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/javier/slam_obstacle_ws/install/local_setup.zsh'
+[66.876s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/javier/slam_obstacle_ws/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/javier/slam_obstacle_ws/src/slam_obstacle_detection/launch/slam_world.launch.py
